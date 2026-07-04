@@ -132,8 +132,8 @@ function updateLightboxImage() {
     el.lightbox.querySelector('.lightbox-content').appendChild(counter);
   }
   counter.textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
-  const nextSrc = assetPath(lightboxImages[(lightboxIndex + 1) % lightboxImages.length];
-  const prevSrc = assetPath(lightboxImages[(lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length];
+  const nextSrc = assetPath(lightboxImages[(lightboxIndex + 1) % lightboxImages.length]);
+  const prevSrc = assetPath(lightboxImages[(lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length]);
   const p1 = new Image(); p1.src = nextSrc;
   const p2 = new Image(); p2.src = prevSrc;
 }
