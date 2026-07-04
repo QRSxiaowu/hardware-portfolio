@@ -1,0 +1,8 @@
+﻿# 作品集网站
+website/server.js
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+projects-data.json
+server-preview.js
