@@ -10,3 +10,6 @@ server-preview.js
 ~$*
 
 .ssh/
+
+known_hosts
+*.ssh
