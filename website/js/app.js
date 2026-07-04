@@ -24,6 +24,8 @@ let categories = [];
 let activeFilter = 'all';
 let lightboxImages = [];
 let lightboxIndex = 0;
+function assetPath(p){const L=window.location.hostname==="localhost"||window.location.hostname==="127.0.0.1";return(L?"../":"")+p;}
+
 
 function init() {
   if (!PROJECTS_DATA) return;
@@ -45,7 +47,7 @@ function renderProjects(projectList) {
     return `
       <div class="project-card" data-index="${idx}" style="--delay: ${idx * 0.05}s">
         <div class="project-card-image">
-          <img src="../${thumb}" alt="${escapeHtml(project.name)}" loading="lazy"
+          <img src="${assetPath(thumb)}" alt="${escapeHtml(project.name)}" loading="lazy"
             onerror="this.parentElement.innerHTML='<div class=no-image><span>\u{1F4CB}</span><p>${escapeHtml(project.name)}</p></div>'">
           <div class="project-card-overlay">
             <div class="project-card-actions">
@@ -121,7 +123,7 @@ function navigateLightbox(dir) {
 
 function updateLightboxImage() {
   if (!lightboxImages.length) return;
-  const src = '../' + lightboxImages[lightboxIndex];
+  const src = assetPath(lightboxImages[lightboxIndex]);
   el.lightboxImg.src = src;
   let counter = el.lightbox.querySelector('.lightbox-counter');
   if (!counter) {
@@ -130,8 +132,8 @@ function updateLightboxImage() {
     el.lightbox.querySelector('.lightbox-content').appendChild(counter);
   }
   counter.textContent = (lightboxIndex + 1) + ' / ' + lightboxImages.length;
-  const nextSrc = '../' + lightboxImages[(lightboxIndex + 1) % lightboxImages.length];
-  const prevSrc = '../' + lightboxImages[(lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length];
+  const nextSrc = assetPath(lightboxImages[(lightboxIndex + 1) % lightboxImages.length];
+  const prevSrc = assetPath(lightboxImages[(lightboxIndex - 1 + lightboxImages.length) % lightboxImages.length];
   const p1 = new Image(); p1.src = nextSrc;
   const p2 = new Image(); p2.src = prevSrc;
 }
@@ -160,7 +162,7 @@ function openProjectDetail(index) {
       '3D 预览图</h3><div class="gallery-grid">';
     project.images.forEach(function(img, i) {
       html += '<div class="gallery-item" onclick="openLightbox(window.currentProjectImages, ' + i + ')">' +
-        '<img src="../' + img + '" alt="3D View ' + (i+1) + '" loading="lazy">' +
+        '<img src="' + assetPath(img) + '" alt="3D View ' + (i+1) + '" loading="lazy">' +
         '<div class="gallery-item-overlay"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/></svg></div></div>';
     });
     html += '</div></div>';
@@ -171,7 +173,7 @@ function openProjectDetail(index) {
     let h = '<div class="modal-section"><h3 class="modal-section-title">' + icon + escapeHtml(title) + '</h3><div class="pdf-list">';
     pdfs.forEach(function(p) {
       const name = p.replace(/^.*[\\/\\\\]/, '');
-      h += '<a href="../' + p + '" target="_blank" class="pdf-link">' +
+      h += '<a href="' + assetPath(p) + '" target="_blank" class="pdf-link">' +
         '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>' +
         escapeHtml(name) + '<span class="pdf-badge">查看</span></a>';
     });
