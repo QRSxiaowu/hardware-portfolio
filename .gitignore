@@ -6,3 +6,5 @@ Thumbs.db
 *.log
 projects-data.json
 server-preview.js
+
+~$*
