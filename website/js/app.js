@@ -27,7 +27,7 @@ let lightboxIndex = 0;
 function assetPath(p){const L=window.location.hostname==="localhost"||window.location.hostname==="127.0.0.1";return(L?"../":"")+p;}
 
 
-function init() {
+function init() { try { console.log("init() called"); } catch(e) {}
   if (!PROJECTS_DATA) return;
   projects = PROJECTS_DATA.projects;
   categories = PROJECTS_DATA.categories;
@@ -40,7 +40,7 @@ function init() {
   updateStats();
 }
 
-function renderProjects(projectList) {
+function renderProjects(projectList) { try { console.log("renderProjects", projectList.length); } catch(e) {}
   if (!el.projectsGrid) return;
   el.projectsGrid.innerHTML = projectList.map(project => { const idx = projects.indexOf(project);
     const thumb = project.images.find(i => /3D/i.test(i)) || project.images[0] || '';

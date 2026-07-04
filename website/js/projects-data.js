@@ -1,6 +1,6 @@
 // Auto-generated - Run: node update-projects.js
 
-const PROJECTS_DATA = {
+var PROJECTS_DATA = {
   "projects": [
     {
       "name": "527-528",
