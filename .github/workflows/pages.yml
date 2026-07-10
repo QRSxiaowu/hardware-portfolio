@@ -1,22 +1,23 @@
-﻿name: Deploy to GitHub Pages
+﻿name: Deploy to Pages
 
 on:
   push:
     branches: [main]
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: Copy assets
-        run: cp -r "${{ github.workspace }}/个人项目合集" "${{ github.workspace }}/website/"
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - run: |
+          ls -la
+          cp -r "${{ github.workspace }}/个人项目合集" "${{ github.workspace }}/website/"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./website
-          publish_branch: gh-pages
-          force_orphan: true
+          path: website
+      - name: Deploy
+        uses: actions/deploy-pages@v4
