@@ -11,9 +11,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Copy image assets
+      - name: Copy assets
         run: cp -r "${{ github.workspace }}/个人项目合集" "${{ github.workspace }}/website/"
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
