@@ -1,8 +1,2 @@
 ﻿[build]
   publish = "."
-[build.environment]
-  NODE_VERSION = "18"
-[[redirects]]
-  from = "/*"
-  to = "/website/index.html"
-  status = 200
