@@ -24,7 +24,7 @@ let categories = [];
 let activeFilter = 'all';
 let lightboxImages = [];
 let lightboxIndex = 0;
-function assetPath(p){const L=window.location.hostname==="localhost"||window.location.hostname==="127.0.0.1";return(L?"../":"")+p;}
+function assetPath(p){const d=window.location.pathname.replace(/\/+[^/]*$/,"").split("/").filter(s=>s).length;return(d>0?"../".repeat(d):"")+p;}
 
 
 function init() { try { console.log("init() called"); } catch(e) {}

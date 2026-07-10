@@ -1,9 +1,10 @@
-// Auto-generated - Run: node update-projects.js
+// Auto-generated - Run: node website/update-projects.js
 
 var PROJECTS_DATA = {
   "projects": [
     {
       "name": "527-528",
+      "path": "个人项目合集/JKD_2026_04_XX/527-528/527-528",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/527-528/3D1.png",
@@ -16,10 +17,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/527-528/PCB_NEW_JKD_527-528_2V0_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "825",
+      "path": "个人项目合集/JKD_2026_04_XX/825/825",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/825/3D1.png",
@@ -32,10 +35,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/825/PCB_825_JA001_1V0_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "826",
+      "path": "个人项目合集/JKD_2026_04_XX/826/826",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/826/3D1.png",
@@ -48,10 +53,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/826/PCB_NEW_JKD_826_V11_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "861-862",
+      "path": "个人项目合集/JKD_2026_04_XX/861-862/861-862",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/861-862/3D1.png",
@@ -64,10 +71,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/861-862/PCB_NEW_JKD_861-862_2V0_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "AI闹钟",
+      "path": "个人项目合集/JKD_2026_04_XX/AI闹钟/AI闹钟",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/AI闹钟/3D1.png",
@@ -80,10 +89,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/AI闹钟/PCB_AI闹钟_1V2.5_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "墨水屏",
+      "path": "个人项目合集/JKD_2026_04_XX/墨水屏/墨水屏",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/墨水屏/3D1.png",
@@ -96,10 +107,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/墨水屏/PCB_JKD_370_4G_V1.1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "机器人驱动板",
+      "path": "个人项目合集/JKD_2026_04_XX/机器人驱动板/机器人驱动板",
       "category": "JKD_2026_04_XX",
       "images": [
         "个人项目合集/JKD_2026_04_XX/机器人驱动板/3D1.png",
@@ -112,10 +125,12 @@ var PROJECTS_DATA = {
         "个人项目合集/JKD_2026_04_XX/机器人驱动板/PCB_PCB1_1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "4G_DTU_LCD",
+      "path": "个人项目合集/WXC_my_work/4G_DTU_LCD/4G_DTU_LCD",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/4G_DTU_LCD/3D1.png",
@@ -128,10 +143,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/4G_DTU_LCD/PCB_PCB1_2_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "4G智能语音透传网关",
+      "path": "个人项目合集/WXC_my_work/4G智能语音透传网关/4G智能语音透传网关",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/4G智能语音透传网关/3D1.png",
@@ -144,10 +161,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/4G智能语音透传网关/PCB_PCB1_0_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "RTK_高精度定位器",
+      "path": "个人项目合集/WXC_my_work/RTK_高精度定位器/RTK_高精度定位器",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/RTK_高精度定位器/3D1.png",
@@ -160,10 +179,12 @@ var PROJECTS_DATA = {
       "otherPdf": [
         "个人项目合集/WXC_my_work/RTK_高精度定位器/4G_RTK_GPS.pdf"
       ],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "无线声光灯报警器",
+      "path": "个人项目合集/WXC_my_work/无线声光灯报警器/无线声光灯报警器",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/无线声光灯报警器/3D1.png",
@@ -176,10 +197,12 @@ var PROJECTS_DATA = {
       "otherPdf": [
         "个人项目合集/WXC_my_work/无线声光灯报警器/无线声光报警器_4G_LORA.pdf"
       ],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "无线网关控制器",
+      "path": "个人项目合集/WXC_my_work/无线网关控制器/无线网关控制器",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/无线网关控制器/3D1.png",
@@ -192,10 +215,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/无线网关控制器/PCB_PCB1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "智能船舶控制系统",
+      "path": "个人项目合集/WXC_my_work/智能船舶控制系统/智能船舶控制系统",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/智能船舶控制系统/3D1.png",
@@ -208,10 +233,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/智能船舶控制系统/PCB_PCB3_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "设备实时监测控制器",
+      "path": "个人项目合集/WXC_my_work/设备实时监测控制器/设备实时监测控制器",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/设备实时监测控制器/3D1.png",
@@ -224,10 +251,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/设备实时监测控制器/PCB_PCB1_2_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "车载智能终端",
+      "path": "个人项目合集/WXC_my_work/车载智能终端/车载智能终端",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/车载智能终端/3D1.png",
@@ -240,10 +269,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/车载智能终端/PCB_PCB1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "边坡偏移监测系统",
+      "path": "个人项目合集/WXC_my_work/边坡偏移监测系统/边坡偏移监测系统",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/边坡偏移监测系统/3D1.png",
@@ -256,10 +287,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/边坡偏移监测系统/PCB_PCB1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "运动控制电机驱动控制板",
+      "path": "个人项目合集/WXC_my_work/运动控制电机驱动控制板/运动控制电机驱动控制板",
       "category": "WXC_my_work",
       "images": [
         "个人项目合集/WXC_my_work/运动控制电机驱动控制板/3D1.png",
@@ -272,10 +305,12 @@ var PROJECTS_DATA = {
         "个人项目合集/WXC_my_work/运动控制电机驱动控制板/PCB_PCB1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "CB02",
+      "path": "个人项目合集/ZHBD_2025_11-2026_03/CB02/CB02",
       "category": "ZHBD_2025_11-2026_03",
       "images": [
         "个人项目合集/ZHBD_2025_11-2026_03/CB02/3D1.png",
@@ -288,10 +323,12 @@ var PROJECTS_DATA = {
         "个人项目合集/ZHBD_2025_11-2026_03/CB02/PCB_PCB1_1_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "CG01",
+      "path": "个人项目合集/ZHBD_2025_11-2026_03/CG01/CG01",
       "category": "ZHBD_2025_11-2026_03",
       "images": [
         "个人项目合集/ZHBD_2025_11-2026_03/CG01/3D1.png",
@@ -304,10 +341,12 @@ var PROJECTS_DATA = {
         "个人项目合集/ZHBD_2025_11-2026_03/CG01/PCB_PCB1_2_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "CG02",
+      "path": "个人项目合集/ZHBD_2025_11-2026_03/CG02/CG02",
       "category": "ZHBD_2025_11-2026_03",
       "images": [
         "个人项目合集/ZHBD_2025_11-2026_03/CG02/3D1.png",
@@ -320,10 +359,12 @@ var PROJECTS_DATA = {
         "个人项目合集/ZHBD_2025_11-2026_03/CG02/PCB_PCB3_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     },
     {
       "name": "CG03",
+      "path": "个人项目合集/ZHBD_2025_11-2026_03/CG03/CG03",
       "category": "ZHBD_2025_11-2026_03",
       "images": [
         "个人项目合集/ZHBD_2025_11-2026_03/CG03/3D1.png",
@@ -336,7 +377,8 @@ var PROJECTS_DATA = {
         "个人项目合集/ZHBD_2025_11-2026_03/CG03/PCB_PCB_5_2026-07-04.pdf"
       ],
       "otherPdf": [],
-      "docFiles": []
+      "docFiles": [],
+      "has3d": true
     }
   ],
   "categories": [

@@ -44,6 +44,6 @@ for (const dir of entries.filter(e => e.isDirectory())) {
   scanDir(rootDir + "/" + dir.name, dir.name);
 }
 
-fs.writeFileSync(outputFile, "// Auto-generated - Run: node website/update-projects.js\n\nconst PROJECTS_DATA = " + JSON.stringify(output, null, 2) + ";\n", "utf-8");
+fs.writeFileSync(outputFile, "// Auto-generated - Run: node website/update-projects.js\n\nvar PROJECTS_DATA = " + JSON.stringify(output, null, 2) + ";\n", "utf-8");
 console.log("\n=== Done ===");
 console.log(output.projects.length + " projects saved to " + outputFile);
